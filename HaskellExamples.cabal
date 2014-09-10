@@ -1,0 +1,22 @@
+name:                HaskellExamples
+version:             0.1.0.0
+synopsis:            Simple Haskell Examples
+description:         A small collection of Haskell snippets
+license:             MIT
+license-file:        LICENSE
+author:              Alexander Thiemann <mail@agrafix.net>
+maintainer:          mail@agrafix.net
+copyright:           (c) 2014 Alexander Thiemann <mail@agrafix.net>
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable HaskellExamples
+  main-is:             Main.hs
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.7 && <4.8,
+                       bytestring >=0.10 && <0.11,
+                       containers >=0.5 && <0.6,
+                       optparse-applicative >=0.8 && <0.11
+  hs-source-dirs:      src
+  default-language:    Haskell2010
